@@ -6,6 +6,9 @@ For this project, I will add functionality to our existing Budget Tracker applic
 ## Screenshots:
 
 ## View my work: 
-
+* https://blooming-dusk-07237.herokuapp.com/
+* https://github.com/amcmilne/Budget-Tracker
+* 
 ## License:
 * MIT
+  
