@@ -2,7 +2,8 @@ console.log("Hi from your service-worker.js file!");
 const FILES_TO_CACHE = [
   "/",
   "/index.html",
-  "/db.js",
+  //"/db.js",
+  "/favicon.ico",
   "/assets/css/styles.css",
   "/assets/js/index.js",
   "/manifest.webmanifest",
@@ -18,7 +19,7 @@ self.addEventListener("install", (evt) => {
         evt.waitUntil(
             caches
             .open(DATA_CACHE_NAME)
-            .then((cache) => cache.add("api/transaction"))
+            .then((cache) => cache.add("/api/transaction"))
         );
         evt.waitUntil(
             caches
