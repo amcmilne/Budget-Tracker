@@ -1,7 +1,0 @@
-{
-    "name": "Budget Tracker",
-    "description": "A budget tracker using NodeJS, IndexedDB",
-    "repository": "https://github.com/amcmilne/Budget-Tracker",
-    "logo": "https://blooming-dusk-07237.herokuapp.com/",
-    "keywords": ["node", "express", "static"]
-  }
