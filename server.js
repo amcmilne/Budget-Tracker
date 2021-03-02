@@ -2,8 +2,8 @@ const express = require("express");
 const logger = require("morgan");
 //const mongoose = require("mongoose");
 const compression = require("compression");
-const connectDB = require ("./config/connection.js");
 require('dotenv').config();
+const connectDB = require ("./config/connection.js");
 
 
 connectDB();
