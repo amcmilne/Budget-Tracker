@@ -1,8 +1,9 @@
+
+require('dotenv').config({path: __dirname + '/connection.env'});
 const express = require("express");
 const logger = require("morgan");
 //const mongoose = require("mongoose");
 const compression = require("compression");
-require('dotenv').config();
 const connectDB = require ("./config/connection.js");
 
 

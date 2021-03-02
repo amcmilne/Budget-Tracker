@@ -1,3 +1,18 @@
-const connectDB = require(process.env.URI || "../connection.env");
+// const connectDB = require(process.env.URI || "../connection.env");
+
+// module.exports = connectDB;
+
+
+const mongoose = require("mongoose");
+
+const connectDB = async () => {
+   await mongoose.connect(process.env.MONGO_URI  , {
+      useUnifiedTopology: true, 
+      useNewUrlParser: true,
+      useCreateIndex: true,
+      useFindAndModify: false,
+   });
+   console.log("db has connected");
+}
 
 module.exports = connectDB;
