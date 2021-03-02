@@ -1,7 +1,7 @@
 //let db;
 const pendingObjectStoreName = "pending";
 // create a new db request for a "budget" database.
-const request = indexedDB.open("budget", 1);
+const request = indexedDB.open("budget", 1); 
 
 request.onupgradeneeded = ({ target }) => {
    // create object store called "pending" and set autoIncrement to true

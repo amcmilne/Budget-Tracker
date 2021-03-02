@@ -1,8 +1,3 @@
-// const connectDB = require(process.env.URI || "../connection.env");
-
-// module.exports = connectDB;
-
-
 const mongoose = require("mongoose");
 
 const connectDB = async () => {

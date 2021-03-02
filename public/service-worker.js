@@ -2,7 +2,7 @@ console.log("Hi from your service-worker.js file!");
 const FILES_TO_CACHE = [
   "/",
   "/index.html",
-  //"/db.js",
+  "/db.js",
   "/favicon.ico",
   "/assets/css/styles.css",
   "/assets/js/index.js",
