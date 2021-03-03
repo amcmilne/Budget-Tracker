@@ -7,9 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#317EFB">
   <link rel="shortcut icon" href="icons/icon-192x192.png" type="image/x-icon">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Francois+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="manifest" href="manifest.webmanifest">
 
@@ -29,14 +32,15 @@
 <body>
   <div class="wrapper">
     <div class="total">
+      <h1>BUDGET TRACKER</h1>
       <div class="total">Your total is: $<span id="total">0</span></div>
     </div>
 
     <div class="form">
       <input type="text" id="t-name" placeholder="Name of transaction" />
       <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
-      <button type="button" id="add-btn" class="btn btn-success"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button type="button" id="sub-btn" class="btn btn-success"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <button type="button" id="add-btn" class="btn btn-secondary"><i class="fa fa-plus buttons"></i> Add Funds</button>
+      <button type="button" id="sub-btn" class="btn btn-secondary"><i class="fa fa-minus"></i> Subtract Funds</button>
       <p class="error"></p>
     </div>
 

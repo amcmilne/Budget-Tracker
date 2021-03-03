@@ -1,11 +1,14 @@
 body {
   font-size: 120%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Alfa Slab One', cursive;
+}
+h1 {
+  font-family:'Alfa Slab One', cursive;
 }
 
 button, input {
   font-size: 100%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Francois One', sans-serif;
 }
 
 table {
@@ -34,7 +37,7 @@ tr:nth-child(even) {
 
 .total {
   font-size: 150%;
-  color: green;
+  color:lightslategrey;
 }
 
 .form {
